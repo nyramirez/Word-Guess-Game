@@ -3,10 +3,10 @@ function startGameFunction() {
 
     // Creating Arrays for word bank
     var computerWord1 = ["able", "boat", "bone", "jugs", "maze"];
-    var computerWord2 = ["expo", "aqua", "jins", "exam", "back"];
-    var computerWord3 = ["pump", "quad", "mock", "quid", "puck"];
-    var computerWord4 = ["zouk", "jowl", "jeux", "java", "jobs"];
-    var computerWord5 = ["high", "kick", "crux", "camp", "pomp"];
+    var computerWord2 = ["expo", "jins", "exam", "back"];
+    var computerWord3 = ["quad", "mock", "quid", "puck"];
+    var computerWord4 = ["zouk", "jowl", "jeux", "hubs", "jobs"];
+    var computerWord5 = ["high", "kick", "crux", "camp",];
 
     // Putting together array of words and creating varaible for random word
     var allWords = [computerWord1, computerWord2, computerWord3, computerWord4, computerWord5];
@@ -100,6 +100,8 @@ function startGameFunction() {
 
                 else {
                     document.getElementById("random-Word").textContent = randomWord[0] + randomWord[1] + randomWord[2] + randomWord[3];
+
+                
                 }
                 
             };
